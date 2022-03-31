@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.cart{
+    width:50px ;
+    height:20px;
+    justify-content: space-around;
+    background-color: tomato;
+    color: thistle;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.general{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 1%;
+    width: 500px;
+    height: 300px;
+}
+.lamp{
+    width: 120px;
+    height: 210px;
+    background-color: whitesmoke;
+    margin-top:  20px;
+    padding-left: 20px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;    
+}
+
+.add{
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+.lin{
+    text-decoration: none;
+    color: thistle;
+}

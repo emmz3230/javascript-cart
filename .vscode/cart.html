@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chart.css">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>product</th>
+                <th>price</th>
+            </tr>
+        </thead>
+        <tbody id="carttable">
+        </tbody>
+    </table>
+    <hr>
+    <table id="carttotals">
+        <tr>
+            <td><strong>Items</strong></td>
+            <td><strong>Total</strong></td>
+        </tr>
+        <tr>
+            <td>x <span id="itemsquantity">0</span></td>
+
+            <td>$<span id="total">0</span></td>
+        </tr>
+    </table>
+
+
+    <div class="cart-buttons">
+        <button id="emptycart">Empty Cart</button>
+        <button id="checkout"> checkout</button>
+        <button>
+            <a href="chart.html" class="link">
+                <strong>
+                    Back to order list
+                </strong>
+            </a>
+        </button>
+        </table>
+</body>
+<script src="chart.js"></script>
+
+</html>
